@@ -1,3 +1,43 @@
+:root {
+
+
+}
+
+
+
 #logo {
     width: 15%;
+}
+
+#footer-container {
+
+    background-color: #C9FFEB;
+    position: fixed;
+    height: 200px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+
+}
+
+#sponsors-container img {
+
+    width: 90px;
+
+
+}
+
+#contact-container img {
+
+    width: 70px;
+
+}
+
+body {
+
+    border: 0;
+    margin: 0;
 }
