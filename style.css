@@ -3,13 +3,21 @@
 
 }
 
+body {
+
+    border: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 
 #container {
     margin: auto 100px auto 100px;
     width: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+      
 }
 
 #container div {
@@ -18,6 +26,11 @@
     align-items: center;
 }
 
+#button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #logo {
     width: 15%;
@@ -48,12 +61,6 @@
 
     width: 50px;
     margin-left: 20px;
-}
-
-body {
-
-    border: 0;
-    margin: 0;
 }
 
 #sponsors-container {
