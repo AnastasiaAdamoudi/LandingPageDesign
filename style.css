@@ -13,31 +13,45 @@
 
     background-color: #C9FFEB;
     position: fixed;
-    height: 200px;
+    height: 150px;
     bottom: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0;
+    align-items: center;
+   
+    
+
 
 
 }
 
 #sponsors-container img {
 
-    width: 90px;
-
+    width: 70px;
+    margin-right: 20px;
 
 }
 
 #contact-container img {
 
-    width: 70px;
-
+    width: 50px;
+    margin-left: 20px;
 }
 
 body {
 
     border: 0;
     margin: 0;
+}
+
+#sponsors-container {
+
+    padding-left: 15px;
+}
+
+#contact-container {
+
+    padding-right: 15px;
 }
